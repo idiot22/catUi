@@ -9,7 +9,8 @@
   "scripts": {
     "dev": "pnpm -C play dev",
     "build": "gulp -f build/gulpfile.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "template": "gulp -f template/gulpfile.ts"
   },
   "keywords": [],
   "author": "",
@@ -26,6 +27,7 @@
     "gulp-sass": "^5.1.0",
     "gulp-typescript": "^6.0.0-alpha.1",
     "sass": "^1.50.1",
+    "shelljs": "^0.8.5",
     "sucrase": "^3.21.0",
     "typescript": "^4.6.3",
     "vue": "^3.2.31"

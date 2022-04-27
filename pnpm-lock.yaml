@@ -17,6 +17,7 @@ importers:
       gulp-sass: ^5.1.0
       gulp-typescript: ^6.0.0-alpha.1
       sass: ^1.50.1
+      shelljs: ^0.8.5
       sucrase: ^3.21.0
       typescript: ^4.6.3
       vue: ^3.2.31
@@ -35,6 +36,7 @@ importers:
       gulp-sass: 5.1.0
       gulp-typescript: 6.0.0-alpha.1_typescript@4.6.3
       sass: 1.50.1
+      shelljs: 0.8.5
       sucrase: 3.21.0
       typescript: 4.6.3
       vue: 3.2.31
@@ -2490,6 +2492,16 @@ packages:
       is-extendable: 0.1.1
       is-plain-object: 2.0.4
       split-string: 3.1.0
+    dev: true
+
+  /shelljs/0.8.5:
+    resolution: {integrity: sha512-TiwcRcrkhHvbrZbnRcFYMLl30Dfov3HKqzp5tO5b4pt6G/SezKcYhmDg15zXVBswHmctSAQKznqNW2LO5tTDow==}
+    engines: {node: '>=4'}
+    hasBin: true
+    dependencies:
+      glob: 7.2.0
+      interpret: 1.4.0
+      rechoir: 0.6.2
     dev: true
 
   /snapdragon-node/2.1.1:
