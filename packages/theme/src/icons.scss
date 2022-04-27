@@ -1,0 +1,92 @@
+@use "./mixins/config.scss" as *;
+
+@font-face {
+    font-family: "redcat-ui-icons"; /* Project id 3322810 */
+    src: url("./fonts/iconfont.woff2") format("woff2"), url("./fonts/iconfont.woff") format("woff"),
+        url("./fonts/iconfont.ttf") format("truetype");
+}
+
+[class*="#{$namespace}-icon-"],
+[class^="#{$namespace}-icon-"] {
+    font-family: "redcat-ui-icons" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.#{$namespace}-icon-up:before {
+    content: "\e604";
+}
+
+.#{$namespace}-icon-switch-to-right:before {
+    content: "\e605";
+}
+
+.#{$namespace}-icon-searches:before {
+    content: "\e606";
+}
+
+.#{$namespace}-icon-right:before {
+    content: "\e607";
+}
+
+.#{$namespace}-icon-search:before {
+    content: "\e608";
+}
+
+.#{$namespace}-icon-themes:before {
+    content: "\e609";
+}
+
+.#{$namespace}-icon-system:before {
+    content: "\e60a";
+}
+
+.#{$namespace}-icon-pullDown:before {
+    content: "\e60b";
+}
+
+.#{$namespace}-icon-pullUp:before {
+    content: "\e60c";
+}
+
+.#{$namespace}-icon-rc-link:before {
+    content: "\e60d";
+}
+
+.#{$namespace}-icon-page:before {
+    content: "\e60e";
+}
+
+.#{$namespace}-icon-left:before {
+    content: "\e60f";
+}
+
+.#{$namespace}-icon-menu:before {
+    content: "\e610";
+}
+
+.#{$namespace}-icon-component:before {
+    content: "\e611";
+}
+
+.#{$namespace}-icon-loginOut:before {
+    content: "\e612";
+}
+
+.#{$namespace}-icon-down:before {
+    content: "\e613";
+}
+
+.#{$namespace}-icon-close:before {
+    content: "\e614";
+}
+
+.#{$namespace}-icon-close-popup:before {
+    content: "\e615";
+}
+
+.#{$namespace}-icon-block1:before {
+    content: "\e616";
+}

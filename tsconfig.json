@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "ESNext", // 打包模块类型
+    "target": "es6", //
+    "removeComments": true, 
+    "noImplicitAny": false,
+    "declaration": false,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "jsx": "preserve", // no jsx
+    "noLib": false,
+    "sourceMap": true,
+    "lib": ["ESNext", "DOM"], // 编译时用的库
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true, // 装饰器
+    "forceConsistentCasingInFileNames": true, // 强制区分大小写
+    "resolveJsonModule": true,
+    "skipLibCheck": true // 跳过类库的检测
+  },
+  "exclude": ["node_modules", "dist/**"],
+  "include": ["**/*.ts", "**/*.d.ts", "**/*.tsx", "**/*.vue"]
+}

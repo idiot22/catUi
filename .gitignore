@@ -1,0 +1,8 @@
+node_modules
+.idea
+dist
+packages/utils/es
+packages/utils/lib
+packages/mixins/es
+packages/mixins/lib
+packages/theme/dist

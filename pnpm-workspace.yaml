@@ -1,0 +1,4 @@
+packages:
+  - 'packages/*' # 所有的组件存放的地方
+  - play
+  - dist
