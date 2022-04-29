@@ -1,0 +1,12 @@
+{
+  "name": "cat-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "psh": "npm publish"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

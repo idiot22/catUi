@@ -9,7 +9,7 @@ export const buildConfig = {
             path: resolve(outDir, 'es')
         },
         bundle: {
-            path: 'redcat-ui/es'
+            path: 'cat-ui/es'
         }
     },
     cjs: {
@@ -20,7 +20,7 @@ export const buildConfig = {
             path: resolve(outDir, 'lib')
         },
         bundle: {
-            path: 'redcat-ui/lib'
+            path: 'cat-ui/lib'
         }
     }
 }

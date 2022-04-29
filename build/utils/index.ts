@@ -19,6 +19,7 @@ export const run = async (command: string) => {
 export const cleanFile = async (path) => {
   await run(`rm -rf ${path}`)
 } 
+export const runTask = async (taskName: string) => await run(`pnpm run build ${ taskName }`)
 /**
  * 1. 打包样式
  * 2. 打包工具方法

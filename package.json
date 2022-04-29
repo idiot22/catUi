@@ -16,6 +16,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^22.0.0",
+    "@rollup/plugin-node-resolve": "^13.2.1",
     "@types/gulp": "^4.0.9",
     "@types/gulp-autoprefixer": "^0.0.33",
     "@types/gulp-clean-css": "^4.3.0",
@@ -26,6 +28,8 @@
     "gulp-clean-css": "^4.3.0",
     "gulp-sass": "^5.1.0",
     "gulp-typescript": "^6.0.0-alpha.1",
+    "rollup-plugin-typescript2": "^0.31.2",
+    "rollup-plugin-vue": "^6.0.0",
     "sass": "^1.50.1",
     "shelljs": "^0.8.5",
     "sucrase": "^3.21.0",
@@ -34,6 +38,11 @@
   },
   "dependencies": {
     "@cat-ui/components": "workspace:^1.0.0",
-    "@cat-ui/theme": "workspace:^1.0.0"
+    "@cat-ui/mixins": "workspace:^1.0.0",
+    "@cat-ui/theme": "workspace:^1.0.0",
+    "@cat-ui/utils": "workspace:^1.0.0",
+    "fast-glob": "^3.2.11",
+    "rollup": "^2.70.2",
+    "ts-morph": "^14.0.0"
   }
 }

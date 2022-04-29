@@ -1,14 +1,14 @@
 @use "./mixins/config.scss" as *;
 
 @font-face {
-    font-family: "redcat-ui-icons"; /* Project id 3322810 */
+    font-family: "cat-ui-icons"; /* Project id 3322810 */
     src: url("./fonts/iconfont.woff2") format("woff2"), url("./fonts/iconfont.woff") format("woff"),
         url("./fonts/iconfont.ttf") format("truetype");
 }
 
 [class*="#{$namespace}-icon-"],
 [class^="#{$namespace}-icon-"] {
-    font-family: "redcat-ui-icons" !important;
+    font-family: "cat-ui-icons" !important;
     font-size: 16px;
     font-style: normal;
     -webkit-font-smoothing: antialiased;
